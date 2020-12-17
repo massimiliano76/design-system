@@ -1,5 +1,5 @@
 <template>
-  <label class="bimdata-radio" :class="{disabled}">
+  <label class="bimdata-radio" :class="{disabled}">²
     <input
       type="radio"
       @input="onInput"
