@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "robotobold";
+  src: url("node_modules/@bimdata/design-system/dist/fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("node_modules/@bimdata/design-system/dist/fonts/roboto-bold-webfont.woff2") format("woff");
+  font-weight: 700;
+  font-style: bold;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "robotomedium";
+  src: url("node_modules/@bimdata/design-system/dist/fonts/roboto-medium-webfont.woff2") format("woff2"),
+    url("node_modules/@bimdata/design-system/dist/fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: medium;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "robotoregular";
+  src: url("node_modules/@bimdata/design-system/dist/fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("node_modules/@bimdata/design-system/dist/fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
